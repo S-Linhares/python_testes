@@ -1,0 +1,7 @@
+algo = input('Digite algo: ')
+print(f"Foi digitado: {algo}")
+print(f"{algo} é do tipo: {type(algo)}")
+print(f"{algo} é numerico? {algo.isnumeric()}")
+print(f"{algo} é alfabetico? {algo.isalpha()}")
+print(f"{algo} é alfanumerico? {algo.isalnum()}")
+print(f"{algo} possui todas as letras maiusculas? {algo.isupper()}")
