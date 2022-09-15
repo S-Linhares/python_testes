@@ -1,0 +1,7 @@
+nome = input('Escreva seu nome: ')
+print(f'Maiuscula: {nome.upper()}')
+print(f'Minuscula: {nome.lower()}')
+espaco = nome.count(' ')
+print(f'Quantidade de letras: {len(nome) - espaco}')
+dividido = nome.split()
+print(f'Quantidade de letras do primeiro nome: {len(dividido[0])}')
