@@ -5,4 +5,4 @@ user = int(input('Digite o numero que acha que foi pensado: '))
 if user == numero:
     print('Você acertou!')
 else:
-    print('Você errou, perdeu!')
+    print(f'Você errou, perdeu! Pensei no número {numero}')
