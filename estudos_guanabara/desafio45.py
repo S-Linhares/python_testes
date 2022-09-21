@@ -1,8 +1,14 @@
 import random
+import time
 escolha = int(input('Escolha uma das opções: \n1 - pedra\n2 - papel\n3 - tesoura\n'))
 opcoes = ['pedra', 'papel', 'tesoura']
 opcao_pc = random.choice(opcoes)
 opcao_vc = opcoes[escolha-1]
+print('JO')
+time.sleep(0.5)
+print('KEN')
+time.sleep(0.5)
+print('PO!!!')
 if escolha == 1:
     if opcao_pc == 'pedra':
         print(f'Computador: {opcao_pc}!\nVocê: {opcao_vc}!\nEMPATE!')
