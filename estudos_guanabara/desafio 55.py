@@ -9,6 +9,6 @@ for i in range(0, 5):
         maior = peso
     elif menor > peso:
         menor = peso
-    else:
+    elif peso < 0:
         print('Peso informado inválido')
 print(f'O maior peso informado foi {maior}\nO menor peso informado foi {menor}')
