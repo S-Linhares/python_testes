@@ -9,6 +9,7 @@ while opcao != 5:
     print('4 - Novos números')
     print('5 - Finalizar programa')
     opcao = int(input('Digite a opção escolhida: '))
+    print('\n')
     if opcao == 1:
         soma = n1 + n2
         print(f'A soma é {soma}')
@@ -26,3 +27,5 @@ while opcao != 5:
         n2 = int(input('Digite o segundo numero: '))
     elif opcao == 5:
         print('Saindo do programa...')
+    else:
+        print('Opção inválida. Escolha novamente.')

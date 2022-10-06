@@ -12,3 +12,5 @@ while cont < num:
         fibo += 1
         print(f'{fibo}')
     cont += 1
+if cont == 1:
+    print(0)
