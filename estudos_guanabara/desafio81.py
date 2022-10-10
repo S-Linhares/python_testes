@@ -14,6 +14,6 @@ print(60*'=')
 print(f'Os valores digitados em ordem descrescente foram: {valores}')
 print(f'Foram digitados {qtd} elementos')
 if 5 in valores:
-    print('O valor 5 está incluson na lista')
+    print('O valor 5 está incluso na lista')
 else:
     print('O valor 5 não está incluso na lista')
