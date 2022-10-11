@@ -9,4 +9,5 @@ for i in range(0, num):
     jogo.clear()
 
 for i in range(0, num):
+    lista[i].sort()
     print(f'Jogo {i+1}: {lista[i]}')

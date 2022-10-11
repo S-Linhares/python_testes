@@ -16,7 +16,7 @@ print('Nº\tNome\t\tMédia')
 print(30*'-')
 for i in range(0, len(boletim[0])):
     media = (boletim[1][i] + boletim[2][i])/2
-    print(f'{i}\t{boletim[0][i]}\t\t{media}')
+    print(f'{i:<4}{boletim[0][i]:<10}{media:>5.2f}')
 print(30*'-')
 
 while True:
@@ -24,7 +24,10 @@ while True:
     if option == 999:
         print('Finalizando programa...')
         break
-    print(f'Aluno: {boletim[0][option]}')
-    print(f'Nota 1: {boletim[1][option]}')
-    print(f'Nota 2: {boletim[2][option]}')
-    print(30*'-')
+    if option < len(boletim[0]):
+        print(f'Aluno: {boletim[0][option]}')
+        print(f'Nota 1: {boletim[1][option]}')
+        print(f'Nota 2: {boletim[2][option]}')
+        print(30*'-')
+    else:
+        print('Opção inválida, digite novamente!')
