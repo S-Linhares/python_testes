@@ -19,9 +19,9 @@ for i in range(0, 3):
     soma_terceira += matriz[i][2]
 print(60*'=')
 
-print(f'| {matriz[0][0]} | {matriz[0][1]} | {matriz[0][2]} |')
-print(f'| {matriz[1][0]} | {matriz[1][1]} | {matriz[1][2]} |')
-print(f'| {matriz[2][0]} | {matriz[2][1]} | {matriz[2][2]} |')
+print(f'| {matriz[0][0]:^5} | {matriz[0][1]:^5} | {matriz[0][2]:^5} |')
+print(f'| {matriz[1][0]:^5} | {matriz[1][1]:^5} | {matriz[1][2]:^5} |')
+print(f'| {matriz[2][0]:^5} | {matriz[2][1]:^5} | {matriz[2][2]:^5} |')
 
 print(60*'=')
 print(f'A soma de todos os valores pares: {soma_par}')
