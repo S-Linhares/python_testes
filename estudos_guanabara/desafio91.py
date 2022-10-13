@@ -17,7 +17,7 @@ print('.', end='')
 time.sleep(0.33)
 print('\n', end='')
 print(30*'=')
-print('RANKING')
+print(10*' ', 'RANKING')
 print(30*'=')
 p = 1
 for i in sorted(jogadores, key = jogadores.get, reverse = True):
