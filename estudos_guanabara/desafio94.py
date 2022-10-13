@@ -6,6 +6,9 @@ acima_media = []
 while True:
     pessoa['nome'] = str(input('Informe o nome da pessoa: '))
     pessoa['sexo'] = str(input('Informe o sexo da pessoa [M/F]: ').upper())
+    while pessoa['sexo'] != 'F' and pessoa['sexo'] != 'M':
+        print('Opção inválida. Digite uma opção válida!!')
+        pessoa['sexo'] = str(input('Informe o sexo da pessoa [M/F]: ').upper())
     pessoa['idade'] = int(input('Informe a idade da pessoa: '))
     media += pessoa['idade']
     if pessoa['sexo'] == 'F':
