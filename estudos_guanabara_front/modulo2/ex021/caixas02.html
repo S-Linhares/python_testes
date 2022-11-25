@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      nav {
+        background-color: gray;
+        padding: 3px;
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 5px;
+      }
+
+      article > aside {
+        background-color: gray;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+      }
+    </style>
+</head>
+<body>
+  <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+  </header>
+  <main>
+      <section id="assuntos">
+        <p>Esportes Politica Tecnologia</p>
+      </section>
+      <section id="noticias">
+          <article>
+              <h2>Noticia sobre o Brasil</h2>
+              <p>
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet
+                quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+              </p>
+              <aside>
+                  <p>
+                    Artigo escrito por Samuelson
+                  </p>
+              </aside>
+          </article>
+      </section>
+  </main>
+  <footer>
+      <p>Desenvolvido pelo curso em video</p>
+  </footer>
+
+</body>
+</html>
